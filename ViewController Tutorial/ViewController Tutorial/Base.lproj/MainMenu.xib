@@ -663,6 +663,6 @@
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
-        <viewController id="13l-LB-lOd" customClass="ITCustomViewController"/>
+        <viewController nibName="ITCustomViewController" id="13l-LB-lOd" customClass="ITCustomViewController"/>
     </objects>
 </document>

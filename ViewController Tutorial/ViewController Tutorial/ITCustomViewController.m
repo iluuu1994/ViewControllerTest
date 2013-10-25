@@ -8,18 +8,6 @@
 
 #import "ITCustomViewController.h"
 
-@interface ITCustomViewController ()
-
-@end
-
 @implementation ITCustomViewController
-
-- (id)init
-{
-    if (self = [super initWithNibName:@"ITCustomViewController" bundle:nil]) {
-        
-    }
-    return self;
-}
 
 @end
