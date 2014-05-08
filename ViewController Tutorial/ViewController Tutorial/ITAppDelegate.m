@@ -11,8 +11,9 @@
 @implementation ITAppDelegate
 
 - (void)awakeFromNib {
-    [self.window.contentView addSubview:self.customViewController.view];
     [self.customViewController.view setFrame:[self.window.contentView bounds]];
+    self.customViewController.view.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
+    [self.window.contentView addSubview:self.customViewController.view];
 }
 
 @end
